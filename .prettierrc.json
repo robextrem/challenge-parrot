@@ -1,0 +1,15 @@
+{
+  "tabWidth": 2,
+  "singleQuote": false,
+  "bracketSameLine": false,
+  "printWidth": 5096,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": "src/**/*.vue",
+      "options": {
+        "printWidth": 5096
+      }
+    }
+  ]
+}

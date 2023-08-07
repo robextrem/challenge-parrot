@@ -1,0 +1,90 @@
+/* We'll need some initial vars to use here */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Typography
+https://nekocalc.com/es/px-a-rem-conversor
+$size-1: 56px;
+$size-2: 40px;
+$size-3: 32px;
+$size-4: 24px;
+$size-5: 20px;
+$size-6: 16px;
+$size-7: 14px; */
+
+$body-font-size: 16px;
+
+$size-1: 2.75rem;
+$size-2: 2.5rem;
+$size-3: 2rem;
+$size-4: 1.5rem;
+$size-5: 1.25rem;
+$size-6: 1rem;
+$size-7: 0.875rem;
+
+$family-sans-serif: "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+$family-primary: $family-sans-serif;
+$family-secondary: "Roboto", "Helvetica Neue", "Helvetica", sans-serif;;
+
+$dimensions: 16 24 32 48 64 96 128 144 180 250;
+
+/*Colors*/
+$primary: #058ED9;
+$success: #49A078;
+$danger: #f04e4a;
+$warning: #FFF07C;
+$link: #47465F;
+$info: #22214F;
+$dark: #222326; 
+$grey:#8F9BB3;
+$light: #F2F2F4;
+$text: $dark;
+$white: #FFFFFF;
+
+/* Buttons */
+$button-ghost-hover-decoration: none;
+$button-disabled-background-color: #D7D7E0 !important;
+$button-disabled-opacity: 0.9;
+
+/*Aside*/
+$aside-width:230px;
+
+/* Navbar */
+$navbar-height: 3.5rem;
+$navbar-item-img-max-height: 2.4rem;
+$navbar-item-active-color: $danger !important;
+$navbar-item-hover-color: $danger !important;
+$navbar-item-active-background-color: transparent !important;
+$navbar-item-hover-background-color: transparent !important;
+
+/* Menu */
+$menu-item-color: $grey;
+$menu-item-hover-color: $light;
+$menu-item-active-background-color: transparent;
+$menu-item-active-color: $danger;
+$menu-list-link-padding: 1.25rem 0.75rem;
+$menu-item-hover-background-color: transparent;
+
+/* Labels */
+$label-color: $dark;
+$label-size:12px;
+/* Inputs */
+$input-shadow: none;
+$input-border-color: #f5f5f7;
+$input-background-color: #f5f5f7;
+$input-icon-color: $dark;
+
+/* Controls */
+$radius: 8px;
+$radius-small: 6px;
+$control-height: 48px;
+
+/* Cards */
+$card-shadow: 2px 2px 32px rgba(77, 77, 104, 0.12);
+$card-radius: 0;
+
+$chevron-color: $dark;
+
+/* link */
+$link-color: $link !important;
+

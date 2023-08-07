@@ -1,0 +1,1 @@
+declare module 'simple-vue3-validator'
