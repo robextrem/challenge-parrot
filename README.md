@@ -21,6 +21,12 @@ yarn install
 ```
 
 * Configura las variables de entorno en el archivo `.env`.
+* Construir el proyecto:
+
+```
+yarn build
+```
+
 * Inicia el servidor de desarrollo con:
 
 ```
